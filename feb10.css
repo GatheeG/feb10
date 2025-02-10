@@ -18,7 +18,7 @@
     padding: 25px ;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background:#f8caf8; 
+    background:#fad7fa; 
     width: 70%;
     margin: 240px auto;
     justify-content: center;
@@ -38,6 +38,9 @@
     gap: 40px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
+
+
 
 }
 
