@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* --googlefonts-- */
+    font-family: "Indie Flower", serif;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    width: 80vh;
+    height: 50vh;
+   
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 25px ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background:#f8caf8; 
+    width: 70%;
+    margin: 240px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.flex-container-1{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.stat-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.card-1{
+    display: flex;
+    background: lightgray;
+
+}
+.card-2{
+    display: flex;
+    background: rgb(250, 176, 176);
+
+}
+.card-3{
+    display: flex;
+    background: rgb(170, 221, 170);
+
+}
