@@ -1,68 +1,79 @@
-*{
+* {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* --googlefonts-- */
     font-family: "Indie Flower", serif;
+
+
 }
-.flex-container{
-    display: flex;
-    justify-content: center;
-    width: 80vh;
-    height: 50vh;
-   
+    
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
 }
-.main-container{
-    display: flex;
-    flex-direction: column;
-    padding: 25px ;
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 10% 5%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background:#fad7fa; 
-    width: 70%;
-    margin: 240px auto;
-    justify-content: center;
+    box-shadow: 0 0 10px rgb(21, 35, 39) (0, 0, 0, 8);
+}
+
+.search-box input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
     align-items: center;
 }
 
-
-#section1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-}
-.flex-container-1{
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-
-
-
+.card {
+    
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
 }
 
-.stat-card{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.blue { background-color: #b0c4de; }
+.pink { background-color: #f8c8dc; }
+.beige { background-color: #f5d9c3; }
 
-
+button {
+    background: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.card-1{
-    display: flex;
-    background: lightgray;
 
-}
-.card-2{
+.footer-links {
     display: flex;
-    background: rgb(250, 176, 176);
+    justify-content: space-around;
+    margin-top: 20px;
+}
 
+.footer-links div {
+    text-align: left;
 }
-.card-3{
-    display: flex;
-    background: rgb(170, 221, 170);
+
+.footer-links a {
+    color: rgb(19, 76, 151);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
 
 }
