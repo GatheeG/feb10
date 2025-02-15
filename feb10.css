@@ -15,15 +15,19 @@ body {
     background-color: #f8f9fa;
     text-align: center;
     padding: 20px;
+    height: 100vh;
+    display: flex;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 70%;
+    height: fit-content;
     margin: auto;
     background: white;
-    padding: 10% 5%;
+    padding: 50px 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(21, 35, 39) (0, 0, 0, 8);
+
 }
 
 .search-box input {
@@ -34,18 +38,27 @@ body {
     margin-bottom: 20px;
 }
 
-.cards {
+.cards{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    /* gap: 10px; */
     align-items: center;
+    height: fit-content;
+   
+
 }
 
 .card {
     
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
-    color: white;
+    color: rgb(31, 20, 20);
+    height: 200px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-betwee;
+
 }
 
 .blue { background-color: #b0c4de; }
@@ -56,24 +69,39 @@ button {
     background: white;
     border: none;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    text-align: start;
+   width: fit-content;
+
+   
 }
 
-.footer-links {
+/* .footer-links {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-}
 
-.footer-links div {
+} */
+
+.cards div {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
-.footer-links a {
+.cards a {
     color: rgb(19, 76, 151);
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
     font-style: italic;
+
+}
+
+.button{
+    width: 100px;
+    height: 10px;
 
 }
